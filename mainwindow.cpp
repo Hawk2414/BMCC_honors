@@ -100,7 +100,7 @@ void MainWindow::on_lineEdit_Grade1_editingFinished()
         ui->lineEdit_Grade1->clear(); //clears the user's input
         QMessageBox::warning(this, "Invalid Number", invalidNumber); //show message that informs user that input is invalid
     } else {
-        Str_Int(tempString);
+        Str_Flt(tempString);
         if (!validNumericRange(getTemp())) {
             ui->lineEdit_Grade1->clear(); //clears the user's input
             QMessageBox::warning(this, "Invalid Range", invalidRange); //show message that informs user that input is invalid
@@ -109,6 +109,8 @@ void MainWindow::on_lineEdit_Grade1_editingFinished()
             setLetter_QualityPoints(0);
             tempSS = QString::fromStdString(getLetterGrade(0)); //converts letter grade to QString and assigns its value to tempSS
             ui->label_LetterGrade1->setText(tempSS); //value of tempSS is printed in label LetterGrade1
+            QString label1 = QString::number(getSemesterGPA(), 'f', 2);
+            ui->label_SemesterGPA_Display->setText(label1);
             if (ui->lineEdit_Grade1->text().isEmpty()) { //if the line edit widget is empty this if statement assigns the value of Grades[0] to 0
                 setGrades(0, 0);
             }
@@ -124,7 +126,7 @@ void MainWindow::on_lineEdit_Grade2_editingFinished()
         ui->lineEdit_Grade2->clear(); //clears the user's input
         QMessageBox::warning(this, "Invalid Number", invalidNumber); //show message that informs user that input is invalid
     } else {
-        Str_Int(tempString);
+        Str_Flt(tempString);
         if (!validNumericRange(getTemp())) {
             ui->lineEdit_Grade2->clear(); //clears the user's input
             QMessageBox::warning(this, "Invalid Range", invalidRange); //show message that informs user that input is invalid
@@ -133,6 +135,8 @@ void MainWindow::on_lineEdit_Grade2_editingFinished()
             setLetter_QualityPoints(1);
             tempSS = QString::fromStdString(getLetterGrade(1)); //converts letter grade to QString and assigns its value to tempSS
             ui->label_LetterGrade2->setText(tempSS); //value of tempSS is printed in label LetterGrade1
+            QString label2 = QString::number(getSemesterGPA(), 'f', 2);
+            ui->label_SemesterGPA_Display->setText(label2);
             if (ui->lineEdit_Grade2->text().isEmpty()) { //if the line edit widget is empty this if statement assigns the value of Grades[1] to 0
                 setGrades(1, 0);
             }
@@ -151,7 +155,7 @@ void MainWindow::on_lineEdit_Grade3_editingFinished()
         ui->lineEdit_Grade3->clear(); //clears the user's input
         QMessageBox::warning(this, "Invalid Number", invalidNumber); //show message that informs user that input is invalid
     } else {
-        Str_Int(tempString);
+        Str_Flt(tempString);
         if (!validNumericRange(getTemp())) {
             ui->lineEdit_Grade3->clear(); //clears the user's input
             QMessageBox::warning(this, "Invalid Range", invalidRange); //show message that informs user that input is invalid
@@ -160,6 +164,8 @@ void MainWindow::on_lineEdit_Grade3_editingFinished()
             setLetter_QualityPoints(2);
             tempSS = QString::fromStdString(getLetterGrade(2)); //converts letter grade to QString and assigns its value to tempSS
             ui->label_LetterGrade3->setText(tempSS); //value of tempSS is printed in label LetterGrade1
+            QString label3 = QString::number(getSemesterGPA(), 'f', 2);
+            ui->label_SemesterGPA_Display->setText(label3);
             if (ui->lineEdit_Grade3->text().isEmpty()) { //if the line edit widget is empty this if statement assigns the value of Grades[2] to 0
                 setGrades(2, 0);
             }
@@ -176,7 +182,7 @@ void MainWindow::on_lineEdit_Grade4_editingFinished()
         ui->lineEdit_Grade4->clear(); //clears the user's input
         QMessageBox::warning(this, "Invalid Number", invalidNumber); //show message that informs user that input is invalid
     } else {
-        Str_Int(tempString);
+        Str_Flt(tempString);
         if (!validNumericRange(getTemp())) {
             ui->lineEdit_Grade4->clear(); //clears the user's input
             QMessageBox::warning(this, "Invalid Range", invalidRange); //show message that informs user that input is invalid
@@ -185,6 +191,8 @@ void MainWindow::on_lineEdit_Grade4_editingFinished()
             setLetter_QualityPoints(3);
             tempSS = QString::fromStdString(getLetterGrade(3)); //converts letter grade to QString and assigns its value to tempSS
             ui->label_LetterGrade4->setText(tempSS); //value of tempSS is printed in label LetterGrade1
+            QString label4 = QString::number(getSemesterGPA(), 'f', 2);
+            ui->label_SemesterGPA_Display->setText(label4);
             if (ui->lineEdit_Grade4->text().isEmpty()) { //if the line edit widget is empty this if statement assigns the value of Grades[3] to 0
                 setGrades(3, 0);
             }

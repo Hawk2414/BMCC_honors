@@ -1,10 +1,7 @@
 #include "gpa.h"
 
 //constructor
-GPA::GPA()
-{
-
-}
+GPA::GPA() {}
 
 //mutators
 bool GPA::numericValidity(string entry) {
@@ -26,8 +23,8 @@ bool GPA::validNumericRange(int entry)
     }
 }
 
-void GPA::Str_Int(string lineEdit) {
-    tempI = stoi(lineEdit);
+void GPA::Str_Flt(string lineEdit) {
+    tempI = stof(lineEdit);
 }
 
 void GPA::setGrades(int arrayElement, int value) {
@@ -84,8 +81,8 @@ void GPA::setLetter_QualityPoints(int element) {
 }
 
 void GPA::setSemesterGPA() {
-    int ttlQP = 0;
-    int totalCredits = credits * 4;
+    float ttlQP = 0.00;
+    float totalCredits = credits * 4.00;
     for (int i = 0; i <= 3; i ++) {
         ttlQP += QualityPoints[i] * credits;
     }
@@ -94,7 +91,7 @@ void GPA::setSemesterGPA() {
 
 
 //accessors
-int GPA::getGrades(int element) { return Grades[element]; }
+float GPA::getGrades( int element ) { return (float)Grades[element]; }
 
 int GPA::getTemp() { return tempI; }
 

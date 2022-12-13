@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/rec2">
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/001-paper clip.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/002-scissors.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/003-pencil.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/004-sharpener.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/005-envelope.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/006-compass.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/007-push pin.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/008-cutter.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/009-stapler.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/010-paper holder.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/011-eraser.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/012-envelope.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/013-calendar.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/014-protactor.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/015-ruler.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/016-pinned notes.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/017-adhesive tape.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/018-suitcase.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/019-glue stick.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/020-printer.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/021-folder.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/022-inkwell.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/023-clipboard.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/024-crayon.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/025-paper.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/026-marker.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/027-fountain pen.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/028-highlighter.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/029-paint brush.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/030-pen.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/031-tape.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/032-calculator.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/033-hot glue gun.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/034-corrector.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/035-clock.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/036-clip.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/037-color.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/038-stamp.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/039-color palette.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/040-glue.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/041-flash disk.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/042-corrector.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/043-book.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/044-stapler remover.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/045-stationery.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/046-notebook.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/047-stationery.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/048-organizer.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/049-stationery.png</file>
+        <file>stationery-icons-2022-11-22-22-38-16-utc/png/050-stationery.png</file>
+    </qresource>
+</RCC>

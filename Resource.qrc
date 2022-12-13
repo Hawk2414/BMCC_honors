@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Alarm.png</file>
+        <file>Back .png</file>
+        <file>Bluetooth.png</file>
+        <file>Camera.png</file>
+        <file>Chat.png</file>
+        <file>Connection.png</file>
+        <file>Device.png</file>
+        <file>Email.png</file>
+        <file>Files.png</file>
+        <file>Flash.png</file>
+        <file>Gadget.png</file>
+        <file>Maps.png</file>
+        <file>Microphone.png</file>
+        <file>Mouse.png</file>
+        <file>Play.png</file>
+        <file>Routers.png</file>
+        <file>Satellite.png</file>
+        <file>Send .png</file>
+        <file>Server.png</file>
+        <file>User.png</file>
+    </qresource>
+</RCC>
